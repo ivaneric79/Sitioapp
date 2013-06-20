@@ -36,7 +36,7 @@
 <icon src="images/114.png" gap:platform="ios" width="114" height="114" />
 <icon src="images/144.png" gap:platform="ios" width="144" height="144" />
 
-    <gap:splash src="images/jb1.jpg"    gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="images/splash.png"    gap:platform="ios"     width="768" height="1024" />
 	
 	<access origin="*" subdomains="true" />
 </widget>
