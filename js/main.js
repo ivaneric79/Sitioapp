@@ -3,8 +3,10 @@
   $('#slider').royalSlider({
    autoScaleSlider: false,
    imageScaleMode: 'none',
-   transitionType: 'fade',
-   arrowsNav: true
+    arrowsNav: true,
+   controlsInside: true,
+   arrowsNavAutoHide: false
+  
 
 
 

@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="royal/skins/default/rs-default.css"> 
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.3.1.min.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
 
 
 <script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
@@ -18,21 +19,53 @@
 </head>
 
 <body>
+	<div data-role="page" id="nosotros">
+	<div class="header">
+		<a href="#nosotros"  class="bnos"><img src="images/user.png"></a>
+<a href="#contacto" class="bcont"><img src="images/contacto.png"></a>
+<a href="#portafolio"  class="bport"><img src="images/portafolio.png"></a>
+		<a href="#hacemos"  class="beng"><img src="images/engrane.png"></a>
 
-	<div data-role="page" id="portafolio">
-
-	<div data-role="header">
-		<img src="images/portafolio.jpg">
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<div id="slider" class="royalSlider rsDefaultInv">
-        <img src="images/jb2.jpg"/>
-        <img src="images/jb3.jpg"/>
-        <img src="images/jb4.jpg"/>
-        <img src="images/jb5.jpg"/>
-        <img src="images/jb6.jpg"/>
-       
+		<img src="images/nosotros.jpg">
+			
+	</div><!-- /content -->
+
+    </div><!-- /page -->
+    	<div data-role="page" id="hacemos">
+	<div class="header">
+		<a href="#nosotros"  class="bnos"><img src="images/user.png"></a>
+<a href="#contacto" class="bcont"><img src="images/contacto.png"></a>
+<a href="#portafolio"  class="bport"><img src="images/portafolio.png"></a>
+		<a href="#hacemos"  class="beng"><img src="images/engrane.png"></a>
+
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<img src="images/hacemos.jpg">
+			
+	</div><!-- /content -->
+
+    </div><!-- /page -->
+
+	<div data-role="page" id="portafolio">
+
+	<div class="header">
+		<a href="#nosotros"  class="bnos"><img src="images/user.png"></a>
+<a href="#contacto" class="bcont"><img src="images/contacto.png"></a>
+<a href="#portafolio"  class="bport"><img src="images/portafolio.png"></a>
+		<a href="#hacemos"  class="beng"><img src="images/engrane.png"></a>
+
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<img src="images/portafolio.jpg">
+			<div id="slider" class="royalSlider rsDefaultInv">
+        <img src="images/p1.jpg"/>
+        <img src="images/p2.jpg"/>
+        <img src="images/p3.jpg"/>
 
       </div>		
 	</div><!-- /content -->
@@ -40,12 +73,25 @@
 </div><!-- /page -->
 <div data-role="page" id="contacto">
 
-	<div data-role="header">
-		<h1>My Title</h1>
+	<div class="header">
+		<a href="#nosotros"  class="bnos"><img src="images/user.png"></a>
+<a href="#contacto" class="bcont"><img src="images/contacto.png"></a>
+<a href="#portafolio"  class="bport"><img src="images/portafolio.png"></a>
+		<a href="#hacemos"  class="beng"><img src="images/engrane.png"></a>
+
 	</div><!-- /header -->
 
-	<div data-role="content">	
-		<p>Hello world</p>		
+	<div data-role="content" class="contacto">	
+		<a class="cfacebook" href="http://www.facebook.com"><img src="images/face.jpg"></a>
+		<a class="ctwitter" href="http://www.twitter.com"><img src="images/twitter.jpg"></a>
+
+<div class="form">
+	<input type="text" name="Nombre" id="nombre" placeholder="Nombre">
+	<input type="text" name="Correo" id="correo" placeholder="Correo">
+	<textarea rows="4" id="mensaje" placeholder="Mensaje"></textarea>
+	<a id="enviar" href="">ENVIAR</a>
+</div>
+
 	</div><!-- /content -->
 
 </div><!-- /page -->

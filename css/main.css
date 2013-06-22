@@ -2,3 +2,106 @@
   width: 768px;
   height: 854px;
 }
+
+.header{
+	height: 50px;
+	background-color:#4d4d4d;
+}
+
+.bnos{
+float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.beng{
+float: right;
+    margin-right: 30px;
+    margin-top: 7px;
+}
+.bport{
+float: right;
+    margin-right: 30px;
+    margin-top: 7px;
+
+}
+.bcont{
+ float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.contacto{
+	height: 970px;
+	background: url('../images/contacto.jpg') no-repeat  transparent;
+}
+
+
+.cfacebook{left: 80px;
+    position: relative;
+    top: 100px;
+}
+
+.ctwitter{
+left: 120px;
+    position: relative;
+    top: 90px;
+}
+
+.form{
+	width: 665px;
+	height: 369px;
+
+padding:10px;
+margin-left:53px;
+position:relative;
+top: 200px;
+}
+
+
+.form input{
+	margin-bottom:20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+
+}
+
+#nombre{
+border:1px solid #ccc;
+padding:5px !important;
+ width: 652px;
+}
+
+#correo{
+border:1px solid #ccc;
+padding:5px !important;
+ width: 652px;
+
+}
+
+#mensaje{
+border:1px solid #ccc;
+padding:5px !important;;
+height: 150px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+	font-weight: 100;
+
+}
+#enviar{
+	font-family: 'Roboto', sans-serif;
+font-size: 16px;
+
+	text-decoration: none;
+	float: right;
+	margin-top:15px;
+	color:#3b3b3b;
+}
+
+.ui-input-text{
+	padding:0px !important;
+
+}
+
+
+
